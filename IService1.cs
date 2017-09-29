@@ -15,6 +15,9 @@ namespace WcfService2
 
         [OperationContract]
         string GetData(int value);
+        
+        [OperationContract]
+        string GetDataNew(int value);
 
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
